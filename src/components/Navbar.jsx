@@ -30,7 +30,7 @@ const Navbar = () => {
         className={
           !isNavOpen
             ? "ease-in-out duration-500 fixed left-[-100%]"
-            : "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#0f1623] ease-in-out duration-500"
+            : "fixed left-0 top-0 w-[70%] h-full border-r border-r-gray-900 bg-[#0f1623] ease-in-out duration-500 z-10"
         }
       >
         <li className="p-4 border-b border-gray-600">Projects</li>
