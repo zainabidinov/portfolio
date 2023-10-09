@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -15,9 +16,9 @@ const Navbar = () => {
 
       {/* Navbar */}
       <ul className="hidden md:flex text-lg">
-        <li className="px-4">Projects</li>
-        <li className="px-4">Technologies</li>
-        <li className="px-4">About</li>
+        <li className="px-4"><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+        <li className="px-4"><Link to="technologies" smooth={true} duration={500}>Skills</Link></li>
+        <li className="px-4"><Link to="about" smooth={true} duration={500}>About</Link></li>
       </ul>
 
       {/* Hamburger Icon */}
