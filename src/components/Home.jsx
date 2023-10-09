@@ -23,13 +23,13 @@ const Home = () => {
               className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
                          duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
             >
-              <a href="http2sm://example.com" target="_blank" rel="noreferrer">
+              <a href="http://example.com" target="_blank" rel="noreferrer">
                 Get My Resume
               </a>
             </button>
 
             <a
-              href="http2sm://github.com/zainabidinov"
+              href="http://github.com/zainabidinov"
               target="_blank"
               rel="noreferrer"
               className="ml-2 px-5 hover:scale-125 duration-300"
@@ -38,7 +38,7 @@ const Home = () => {
             </a>
 
             <a
-              href="http2sm://www.linkedin.com/in/zainabidinov/"
+              href="http://www.linkedin.com/in/zainabidinov/"
               target="_blank"
               rel="noreferrer"
               className="px-5 hover:scale-125 duration-300"
