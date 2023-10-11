@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div name="about" className="w-full h-full text-gray-300">
-      <div className="max-w-[1050px] h-full mx-auto">
+      <div className="max-w-[1150px] h-full mx-auto pb-20">
         <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div>
         <p className="text-4xl md:text-6xl font-bold mt-8 mb-4 mx-4">About Me</p>
 
@@ -17,7 +17,11 @@ const About = () => {
 
         <p className="text-4xl md:text-5xl font-bold mt-8 mb-4 mx-4">Location</p>
         <p className="text-xl text-justify mx-4 max-w-[750px] text-gray-400">Osh, Kyrgyzstan</p>
+
+        
       </div>
+
+      
     </div>
   );
 };

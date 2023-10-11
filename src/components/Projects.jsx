@@ -6,15 +6,15 @@ import testProj4 from "../assets/projects/04.jpg";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full h-full text-gray-300">
-      <div className="max-w-[1150px] mx-auto">
+    <div name="projects" className="w-full h-full text-gray-300 ">
+      <div className="max-w-[1150px] h-full mx-auto ">
         <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div>
         <p className="text-4xl md:text-6xl font-bold my-8 mx-4">Projects</p>
 
         {/* Grid Container */}
-        <div className="w-full h-full grid sm:grid-cols-2 gap-4 justify-items-center">
+        <div className="grid 2xs:grid-cols-2 gap-4 justify-items-center pb-16">
           {/* Project Item */}
-          <div className="sm:w-[400px] w-[300px] flex flex-col my-4 shadow-slate-500 shadow-md">
+          <div className="max-w-[300px] sm:max-w-[400px] flex flex-col my-4 shadow-slate-500 shadow-md mx-4">
             <img
               src={testProj1}
               alt="project1-img"
@@ -48,7 +48,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="sm:w-[400px] w-[300px] flex flex-col my-4 shadow-slate-500 shadow-md">
+          <div className="max-w-[300px] sm:max-w-[400px] flex flex-col my-4 shadow-slate-500 shadow-md mx-4">
             <img
               src={testProj2}
               alt="project2-img"

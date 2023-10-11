@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full text-gray-300  py-10">
-      <div className="max-w-[1050px] mx-auto">
-        {/* Container */}
+    <div className="w-full h-screen text-gray-300  py-10">
+      <div className="max-w-[1050px] h-full mx-auto">
+        
         <div className="grid grid-cols-3 gap-4 px-4">
           <div className="min-w-[50px] max-w-[300px] flex flex-col">
             <p className="text-gray-400">Telegram/ WhatsApp</p>
