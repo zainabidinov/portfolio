@@ -10,21 +10,21 @@ import { SiRedux } from "react-icons/si";
 import { PiFigmaLogo } from "react-icons/pi";
 import { Icon } from "@iconify/react";
 
-const Technologies = () => {
+const Skills = () => {
   return (
     <div name="technologies" className="w-full h-full text-gray-300">
-      <div className="max-w-[1150px] h-full mx-auto">
+      <div className="max-w-[1050px] h-full mx-auto">
         <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div>
         <p className="text-4xl md:text-6xl font-bold my-8 mx-4">Skills</p>
 
-        <p className="text-xl text-justify mx-4 max-w-[750px] text-gray-400">
+        <p className="text-xl text-justify mx-4 max-w-[850px] text-gray-400">
           As a web development enthusiast, I've worked with a wide range of
           technologies. My passion for web development extends to personal
           projects, exploring new libraries and experimenting with innovative
           UI/UX designs.
         </p>
 
-        <div className="grid grid-cols-3 sm:grid-cols-4 gap-y-8 my-16 max-w-[800px]">
+        <div className="grid grid-cols-3 sm:grid-cols-5 gap-y-8 my-16 max-w-[900px]">
           <div className="px-4 mx-5 flex flex-col items-center gap-1 hover:scale-125 duration-500">
             {/* <DiHtml5 size={"3rem"} /> */}
             <Icon icon="vscode-icons:file-type-html" width="60" />
@@ -78,4 +78,4 @@ const Technologies = () => {
   );
 };
 
-export default Technologies;
+export default Skills;

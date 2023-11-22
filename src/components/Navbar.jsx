@@ -16,9 +16,9 @@ const Navbar = () => {
 
       {/* Navbar */}
       <ul className="hidden md:flex text-lg">
-        <li className="px-4"><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-        <li className="px-4"><Link to="technologies" smooth={true} duration={500}>Skills</Link></li>
-        <li className="px-4"><Link to="about" smooth={true} duration={500}>About</Link></li>
+        <li className="px-8"><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
+        <li className="px-8"><Link to="technologies" smooth={true} duration={500}>Skills</Link></li>
+        <li className="px-8"><Link to="about" smooth={true} duration={500}>About</Link></li>
       </ul>
 
       {/* Hamburger Icon */}

@@ -7,7 +7,7 @@ import testProj4 from "../assets/projects/04.jpg";
 const Projects = () => {
   return (
     <div name="projects" className="w-full h-full text-gray-300 ">
-      <div className="max-w-[1150px] h-full mx-auto ">
+      <div className="max-w-[1050px] h-full mx-auto ">
         <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div>
         <p className="text-4xl md:text-6xl font-bold my-8 mx-4">Projects</p>
 

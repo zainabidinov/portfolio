@@ -5,7 +5,7 @@ const Contact = () => {
     <div name="contact" className="w-full h-screen mx-auto">
       {/* <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div> */}
     
-      <div className="max-w-[1150px] h-full flex justify-center items-center px-4">
+      <div className="max-w-[1150px] h-full flex justify-center items-center px-4 mx-auto">
         <form
           method="POST"
           action="https://getform.io/f/b198b181-766e-4388-ac16-5d330928f41b"
@@ -41,8 +41,8 @@ const Contact = () => {
             rows="9"
             placeholder="Message"
           ></textarea>
-          <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
-            Let's Collaborate
+          <button className="text-white border-2 hover:bg-indigo-600 hover:border-indigo-600 px-4 py-3 my-8 mx-auto flex items-center">
+            Send it!
           </button>
         </form>
       </div>
