@@ -14,17 +14,19 @@ const Skills = () => {
   return (
     <div name="technologies" className="w-full h-full text-gray-300">
       <div className="max-w-[1050px] h-full mx-auto">
-        <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div>
-        <p className="text-4xl md:text-6xl font-bold my-8 mx-4">Skills</p>
+        <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 md:mx-8 mx-4"></div>
+        <p className="text-4xl md:text-6xl font-bold my-8 md:mx-8 mx-4">
+          Skills
+        </p>
 
-        <p className="text-xl text-justify mx-4 max-w-[850px] text-gray-400">
+        <p className="text-xl text-justify md:mx-8 mx-4 max-w-[925px] text-gray-400">
           As a web development enthusiast, I've worked with a wide range of
           technologies. My passion for web development extends to personal
           projects, exploring new libraries and experimenting with innovative
           UI/UX designs.
         </p>
 
-        <div className="grid grid-cols-3 sm:grid-cols-5 gap-y-8 my-16 max-w-[900px]">
+        <div className="grid grid-cols-3 sm:grid-cols-5 gap-y-8 my-16 max-w-[900px] md:mx-14 mx-4">
           <div className="px-4 mx-5 flex flex-col items-center gap-1 hover:scale-125 duration-500">
             {/* <DiHtml5 size={"3rem"} /> */}
             <Icon icon="vscode-icons:file-type-html" width="60" />
@@ -47,6 +49,12 @@ const Skills = () => {
             {/* <DiReact size={"3rem"} /> */}
             <Icon icon="logos:react" width="60" />
             <p>React</p>
+          </div>
+
+          <div className="px-4 mx-5 flex flex-col items-center gap-1 hover:scale-125 duration-500">
+            {/* <SiRedux size={"3rem"} /> */}
+            <Icon icon="logos:typescript-icon" width="60" />
+            <p>TypeScript</p>
           </div>
 
           <div className="px-4 mx-5 flex flex-col items-center gap-1 hover:scale-125 duration-500">
