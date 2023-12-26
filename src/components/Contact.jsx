@@ -4,8 +4,6 @@ import { FaPaperPlane } from "react-icons/fa";
 const Contact = () => {
   return (
     <div name="contact" className="w-full h-screen mx-auto">
-      {/* <div class="w-[64px] h-[6px] rounded-xl bg-gradient-to-r from-teal-300 to-purple-600 mx-4"></div> */}
-
       <div className="max-w-[1050px] h-full flex justify-center items-center px-4 mx-auto">
         <form
           method="POST"
@@ -13,9 +11,6 @@ const Contact = () => {
           className="flex flex-col max-w-[600px] w-full content-start"
         >
           <div className="pb-5">
-            {/* <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
-              Contact
-            </p> */}
             <p className="text-4xl md:text-5xl font-bold text-gray-300 text-center">
               Contact Me
             </p>

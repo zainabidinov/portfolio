@@ -1,16 +1,12 @@
 import React from "react";
-import test from "../assets/projects/pizza-universe-purple.svg";
-import testProj2 from "../assets/projects/pizza-universe-yellow.svg";
-import testProj3 from "../assets/projects/test.svg";
-import test5 from "../assets/projects/onequiz1.png";
-import test1 from "../assets/projects/pizza-front.png";
-import test2 from "../assets/projects/pizza-mobile.png";
-import test3 from "../assets/projects/lemon-1.png";
-import test4 from "../assets/projects/lemon-2.png";
+import pizzuniverseDesktop from "../assets/projects/pizzuniverseDesktop.png";
+import pizzauniverseMobile from "../assets/projects/pizzauniverseMobile.png";
+import lemonDesktop from "../assets/projects/lemonDesktop.png";
+import lemonMobile from "../assets/projects/lemonMobile.png";
+import onequizDesktop from "../assets/projects/onequizDesktop.png";
+import onequizMobile from "../assets/projects/onequizMobile.png";
 import { HiExternalLink } from "react-icons/hi";
 import { FaGithub } from "react-icons/fa";
-import desktop from "../assets/projects/quiz1.png";
-import mobile from "../assets/projects/quiz2.png";
 
 const Projects = () => {
   return (
@@ -20,108 +16,6 @@ const Projects = () => {
         <p className="text-4xl md:text-6xl font-bold my-8 md:mx-8 mx-4">
           Projects
         </p>
-
-        {/* Grid Container */}
-        {/* <div className="grid 2xs:grid-cols-2 gap-4 justify-items-center pb-16">
-          <div className="max-w-[300px] sm:max-w-[500px] flex flex-col my-4 shadow-slate-500 shadow-md md:mx-14 mx-4">
-            <img
-              src={test}
-              alt="project1-img"
-              className="w-[300px] sm:w-[500px]"
-            />
-            <p className="text-2xl text-center font-semibold my-2">
-              Pizza Universe
-            </p>
-            <p className="text-justify px-[40px] ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
-              officia eos laboriosam ducimus similique culpa omnis ipsa quo
-              voluptatum nisi.
-            </p>
-            <div className="flex justify-around my-4 text-xl">
-              <p>React</p>
-              <p>API</p>
-            </div>
-            <div className="flex justify-around my-4">
-              <button
-                className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
-                         duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
-              >
-                Repo
-              </button>
-              <button
-                className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
-                         duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-
-          <div className="max-w-[300px] sm:max-w-[500px] flex flex-col my-4 shadow-slate-500 shadow-md md:mx-14">
-            <img
-              src={testProj2}
-              alt="project2-img"
-              className="w-[300px] sm:w-[500px]"
-            />
-            <p className="text-2xl text-center font-semibold my-2">
-              Little Lemon Restaurant
-            </p>
-            <p className="text-justify px-[40px] ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores ducimus est quas obcaecati a delectus?
-            </p>
-            <div className="flex justify-around my-4 text-xl">
-              <p>React</p>
-              <p>JavaScript</p>
-            </div>
-            <div className="flex justify-around my-4">
-              <button
-                className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
-                         duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
-              >
-                Repo
-              </button>
-              <button
-                className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
-                         duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div className="max-w-[300px] sm:max-w-[500px] flex flex-col my-4 shadow-slate-500 shadow-md md:mx-14">
-            <img
-              src={testProj3}
-              alt="project2-img"
-              className="w-[300px] sm:w-[500px]"
-            />
-            <p className="text-2xl text-center font-semibold my-2">
-              Little Lemon Restaurant
-            </p>
-            <p className="text-justify px-[40px] ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores ducimus est quas obcaecati a delectus?
-            </p>
-            <div className="flex justify-around my-4 text-xl">
-              <p>React</p>
-              <p>JavaScript</p>
-            </div>
-            <div className="flex justify-around my-4">
-              <button
-                className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
-                         duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
-              >
-                Repo
-              </button>
-              <button
-                className="border-2 border-[#5c62ec] hover:opacity-80 transition-opacity font-bold
-                         duration-200 ease-in text-white px-3 py-2 rounded-3xl bg-[#5c62ec]"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div> */}
 
         <div className="mx-4">
           <div className="mb-14 relative w-full overflow-hidden border rounded-3xl bg-gradient-to-b  from-slate-800 to-indigo-900 dark:border-slate-700 border-slate-100 max-w-[980px] mx-auto">
@@ -181,11 +75,15 @@ const Projects = () => {
               </div>
 
               <div className="xmd:absolute md:right-[-210px] xmd:w-[800px] mb-4 px-1 sm:ml-0 ml-1">
-                <img src={test1} alt="desktop" className=" sm:w-[750px]" />
+                <img
+                  src={pizzuniverseDesktop}
+                  alt="desktop"
+                  className=" sm:w-[750px]"
+                />
               </div>
               <div className="absolute self-end justify-self-start xmd:top-[261px] xmd:right-[-225px] xmd:w-[800px]">
                 <img
-                  src={test2}
+                  src={pizzauniverseMobile}
                   alt="mobile"
                   className="w-[70px] mobileS:w-[65px] mobileL:w-[85px] mobileXl:w-[95px] sm:w-[115px] ml-2 mobileXl:ml-4 mb-4"
                 />
@@ -262,18 +160,22 @@ const Projects = () => {
               </div>
 
               <div className="xmd:absolute md:right-[-210px] xmd:w-[800px] mb-4 px-1 sm:ml-0 ml-1">
-                <img src={test5} alt="desktop" className=" sm:w-[750px]" />
+                <img
+                  src={onequizDesktop}
+                  alt="desktop"
+                  className=" sm:w-[750px]"
+                />
               </div>
               <div className="absolute self-end justify-self-start xmd:top-[261px] xmd:right-[-225px] xmd:w-[800px]">
                 <img
-                  src={mobile}
+                  src={onequizMobile}
                   alt="mobile"
                   className="w-[70px] mobileS:w-[65px] mobileL:w-[85px] mobileXl:w-[95px] sm:w-[115px] ml-2 mobileXl:ml-4 mb-4"
                 />
               </div>
             </div>
           </div>
-          
+
           <div className="mb-16 relative w-full overflow-hidden border rounded-3xl bg-gradient-to-b  from-slate-800 to-blue-900 border-slate-700 max-w-[1000px] mx-auto">
             <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-indigo-600 to-transparent"></div>
             <div className="grid grid-cols-1 min-h-[500px]  xmd:grid-cols-2 justify-items-center xmd:justify-items-start">
@@ -333,11 +235,15 @@ const Projects = () => {
               </div>
 
               <div className="xmd:absolute md:right-[-210px] xmd:w-[800px] mb-4 px-1 sm:ml-0 ml-1">
-                <img src={test3} alt="desktop" className=" sm:w-[750px]" />
+                <img
+                  src={lemonDesktop}
+                  alt="desktop"
+                  className=" sm:w-[750px]"
+                />
               </div>
               <div className="absolute self-end justify-self-start xmd:top-[261px] xmd:right-[-225px] xmd:w-[800px]">
                 <img
-                  src={test4}
+                  src={lemonMobile}
                   alt="mobile"
                   className="w-[70px] mobileS:w-[65px] mobileL:w-[85px] mobileXl:w-[95px] sm:w-[115px] ml-2 mobileXl:ml-4 mb-4"
                 />
@@ -345,8 +251,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-
-        {/*  */}
       </div>
     </div>
   );

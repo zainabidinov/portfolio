@@ -14,7 +14,6 @@ const Navbar = () => {
         mz<span className="text-[#5c62ec]">.</span>
       </h3>
 
-      {/* Navbar */}
       <ul className="hidden md:flex text-lg">
         <li className="px-8">
           <Link to="projects" smooth={true} duration={500}>
@@ -33,12 +32,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* Hamburger Icon */}
       <div onClick={handleNav} className="z-10 md:hidden">
         {!isNavOpen ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/* Mobile Menu */}
       <ul
         className={
           !isNavOpen
